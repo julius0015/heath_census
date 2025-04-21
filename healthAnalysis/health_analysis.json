@@ -1,1 +1,25 @@
-
+{
+  "conditions": [
+    {
+      "name": "Diabetes",
+      "symptoms": ["Frequent urination", "Excessive thirst", "Unexplained weight loss", "Increased hunger", "Fatigue"],
+      "prevention": ["Maintain a healthy weight", "Eat a balanced diet", "Regular exercise", "Avoid sugary drinks"],
+      "treatment": "Medication, insulin therapy, lifestyle changes",
+      "imagesrc": "diabetes.jpg"
+    },
+    {
+      "name": "Thyroid",
+      "symptoms": ["Weight changes", "Fatigue", "Hair loss", "Feeling cold or hot", "Changes in heart rate"],
+      "prevention": ["Adequate iodine intake", "Regular check-ups"],
+      "treatment": "Medication, hormone replacement therapy",
+      "imagesrc": "thyroid.jpg"
+    },
+    {
+      "name": "High Blood Pressure",
+      "symptoms": ["Often no symptoms", "Severe headache", "Fatigue", "Vision problems", "Chest pain"],
+      "prevention": ["Healthy diet", "Regular exercise", "Maintain a healthy weight", "Limit alcohol and sodium"],
+      "treatment": "Medication, lifestyle changes",
+      "imagesrc": "high_blood_pressure.jpg"
+    }
+  ]
+}
