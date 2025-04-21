@@ -15,3 +15,13 @@ function addPatient() {
         generateReport();
     }
 }
+
+function resetForm() {
+    document.getElementById("name").value = "";
+    const checkedGender = document.querySelector('input[name="gender"]:checked');
+    if (checkedGender) {
+        checkedGender.checked = false;
+    }
+    document.getElementById("age").value = "";
+    document.getElementById("condition").value = "";
+}
